@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-#include "inc/ds.h"
+#include "ds.h"
 
 int main(void) {
 
@@ -17,6 +17,7 @@ int main(void) {
 	next = appendLL(next, 9);
 
 	printLL(ll);
+
 
     bool bi = false;
 
